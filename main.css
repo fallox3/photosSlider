@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.content
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(27, 35, 73) 3%, rgba(102,126,234,1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main
+{
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 700px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0 0 0;
+    border: 1px solid white;
+    border-radius: 40px;
+    
+}
+.buttons
+{
+    margin-top: 30px;
+}
+button
+{
+    width: 200px;
+    height: 50PX;
+    background-image: linear-gradient(to left, rgb(27, 35, 73) 3%, rgba(102,126,234,1) 100%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+button:hover
+{
+    background-position: right center;
+}
+.circle
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(112, 151, 112);
+    border-radius: 50%;
+}
